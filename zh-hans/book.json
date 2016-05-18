@@ -1,0 +1,16 @@
+{
+    "author": "SuperSuRaccoon",
+    "links": {
+        "sidebar": {
+            "我的博客": "http://www.supersuraccoon-cocos2d.com"
+        }
+    },
+    "plugins" : 
+    [
+        "disqus",
+        "todo",
+        "search-pro",
+        "-search",
+        "toc"
+    ]
+}

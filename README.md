@@ -1,2 +1,1 @@
-# gitbook_cocos_android_emulator
-gitbook_cocos_android_emulator
+[GitBook Cocos JSBinding](https://www.gitbook.com/book/supersuraccoon/gitbook_cocos_jsbinding) source code.

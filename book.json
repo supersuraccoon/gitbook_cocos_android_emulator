@@ -1,0 +1,23 @@
+{ 
+    "plugins" : 
+    [
+        "disqus",
+        "todo",
+        "search-pro",
+        "toc"
+    ],
+    "pluginsConfig": 
+    {
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true
+        },
+        "disqus": {
+            "shortName": "supersuraccoon-gitbook"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba"
+        }
+    }
+}
