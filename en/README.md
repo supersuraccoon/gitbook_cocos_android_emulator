@@ -10,3 +10,5 @@ Compiler && Install && Run && Debug Logging `cocos2d-js` game on `Android` Emula
 -   `Mac OS X`
 -   `android-ndk-r9d`
 -   `Android 4.4.2 (API 19)`
+
+A releated project can be found [here](https://github.com/supersuraccoon/CocosAndroidEmulator).

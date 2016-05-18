@@ -153,7 +153,7 @@ root: emulator avd "设备名"
 
 首先修改 `jni` 目录下的 `Android.mk` :
 
-```son
+```
 LOCAL_SRC_FILES := hellojavascript/main.cpp \
                    ../../Classes/AppDelegate.cpp 
 
@@ -162,7 +162,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
 原来的写法是把项目中的文件一一列出，这个比较麻烦，修改成自动添加所有匹配类型的做法:
 
-```son
+```
 MY_FILES_PATH :=  $(LOCAL_PATH)
 MY_FILES_PATH +=  $(LOCAL_PATH)/../../Classes
                    
@@ -191,13 +191,13 @@ LOCAL_C_INCLUDES := $(MY_ALL_DIRS)
 
 接着修改 `Application.mk`
 
-``` son
+```
 # APP_ABI := armeabi-v7a
 ```
 
 把原先注释掉的代码放开，`ABI` 修改成我们的虚拟设备的类型 `x86`
 
-```son
+```
 APP_ABI := x86
 ```
 

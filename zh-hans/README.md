@@ -10,3 +10,5 @@
 -   `Mac OS X`
 -   `android-ndk-r9d`
 -   `Android 4.4.2 (API 19)`
+
+相关项目代码[在这里](https://github.com/supersuraccoon/CocosAndroidEmulator).
